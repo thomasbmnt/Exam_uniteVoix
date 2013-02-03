@@ -1,0 +1,51 @@
+
+name = Unité voix
+description = Thème du site unité voix
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/main.css
+stylesheets[print][] = css/print.css
+scripts[] = js/script.js
+
+regions[header] = Header
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+regions[menu] = Menu
+regions[content] = Content
+regions[objectifs] = Objectifs
+regions[description] = Description
+regions[intervenants] = Intervenants
+regions[clinique] = Clinique
+regions[contactForm] = Formulaire de contact
+regions[address] = Adresse de contact
+
+regions[recherches] = Recherches
+regions[adhesion] = Adhesion
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[triptych_first] = Triptych first
+regions[triptych_middle] = Triptych middle
+regions[triptych_last] = Triptych last
+
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+regions[footer] = Footer
+
+settings[shortcut_module_link] = 0
+
+engine = phptemplate
+
+
+; Information added by drupal.org packaging script on 2012-11-07
+version = "7.17"
+project = "drupal"
+datestamp = "1352325357"
+
